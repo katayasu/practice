@@ -1,0 +1,224 @@
+@charset "utf-8";
+body {
+    min-width: 1140px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 26px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F2D2D;
+    border-right: 2px solid rgba(140, 140, 140, 0.3);
+    border-left: 2px solid rgba(140, 140, 140, 0.3);
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+p,
+ul,
+h2,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+label {
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1420px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.main-header {
+   padding: 61px;
+   display: inline-flex;
+   justify-content: space-between;
+}
+
+.logo {
+    margin-left: 45px;
+    cursor: pointer;
+	top: 0;
+	margin-top: -7px;
+}
+
+.header-btns {
+	right: 0;
+    margin-left: 150%;
+}
+
+.sign-btns {
+	display: inline-flex;
+}
+
+.sign-in {
+    cursor: pointer;
+	width: 111px;
+	margin-right: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    background: transparent;
+	color: #434343;
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 35px;
+}
+
+.sign-in:hover {
+    filter: invert(100);
+}
+
+.sign-up {
+    cursor: pointer;
+    width: 111px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 40px;
+    background: #7F83FF;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 35px;
+}
+
+.sign-up:hover {
+    color: #7F83FF;
+    background: white;
+    border: 3px solid #7F83FF;
+}
+
+/*Main*/
+
+main {
+    width: 790px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.copypermission {
+    content: "";
+    position: absolute;
+    width: 1420px;
+    height: 458px;
+    color: transparent;
+}
+
+.main-bg {
+    margin-top: 150px;
+}
+
+.slogan {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.work-btns {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.hire-btn {
+    cursor: pointer;
+    width: 151px;
+    font-size: 25px;
+    margin-right: 40px;
+    background: #4A4EDD;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.work-btn {
+    cursor: pointer;
+    width: 151px;
+    font-size: 25px;
+    margin-right: 40px;
+    background: transparent;
+    color: #4A4EDD;
+    border: solid 3px #4A4EDD;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 10px;
+}
+
+.work-btn:hover {
+    color: white;
+    background: #4A4EDD;
+}
+
+/*Hire Block*/
+
+.hire-block {
+    margin-top: 20%;
+}
+
+.hire-header {
+    text-align: center;
+}
+
+.slider-bubbles {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    margin-left: 306px;
+    margin-right: 306px;
+    margin-bottom: 100px;
+}
+
+.bubble {
+    margin-right:;
+    font-size: 22px;
+    display: inline-flex;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #A4A4A4;
+    width: 347px;
+    padding-left: 65px;
+}
+
+.bubble img {
+    margin-right: 30px;
+    margin-top: -10px;
+}
+
+.current-bubble {
+    width: 237px;
+    color: #7796FE;
+    border-bottom: 4px solid #7796FE;
+}
+
+.hire-hubble {
+    display: inline-flex;
+    text-align: start;
+}
+
+.text-bg {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+}
