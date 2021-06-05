@@ -206,7 +206,7 @@ main {
     margin-top: -10px;
 }
 
-.current-bubble {
+.current-bubble-hire {
     width: 237px;
     color: #7796FE;
     border-bottom: 4px solid #7796FE;
@@ -214,11 +214,81 @@ main {
 
 .hire-hubble {
     display: inline-flex;
-    text-align: start;
 }
 
-.text-bg {
-    position: absolute;
+.hubble {
+    margin-top: 200px;
+    display: flex;
+}
+
+.hubble-block-1 {
+    z-index: 1;
+    padding: 70px;
     margin-top: 100px;
-    margin-left: 70px;
+    margin-left: 100px;
+    width: 750px;
+    height: 356px;
+    background-image: url(img/purple-block-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: start;
+    color: white;
+    font-size: 18px;
+}
+
+.hubble-block-1 h2 {
+    margin-bottom: 30px;
+}
+
+.hubble-block-1 p {
+    width: 564px;
+    height: 211px;
+}
+
+.hubble-1-bg {
+    z-index: 0;
+    margin-left: -62px;
+ }
+
+ .hubble-block-2 {
+    z-index: 1;
+    padding: 140px;
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 709px;
+    height: 526px;
+    background-image: url(img/orange-block-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: start;
+    color: white;
+    font-size: 18px;
+}
+
+.hubble-block-2 h2 {
+    margin-bottom: 30px;
+}
+
+.hubble-block-2 p {
+    height: 240px;
+}
+
+/*Work*/
+
+.work-bubble {
+    display: inline-flex;
+}
+
+.work-block {
+    margin-top: -5%;
+}
+
+.work-header {
+    text-align: center;
+}
+
+.current-bubble-work {
+    width: 237px;
+    color: #FB1488;
+    border-bottom: 4px solid #FB1488;
 }
